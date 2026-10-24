@@ -6,6 +6,6 @@ public class Validator : IValidator
 {
     public bool IsValid(string Codigo, Dictionary<string, List<string>> Parametros, bool Ativo)
     {
-        
+        return true;
     }
 }

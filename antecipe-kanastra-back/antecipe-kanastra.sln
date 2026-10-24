@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "antecipe-kanastra", "antecipe-kanastra\antecipe-kanastra.csproj", "{1A93CBEE-237D-4129-9C65-4C0B78FD5A61}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "antecipe-kanastra-back", "antecipe-kanastra-back\antecipe-kanastra-back.csproj", "{1A93CBEE-237D-4129-9C65-4C0B78FD5A61}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{22B4D814-7D4B-49B2-8417-76189D88CADC}"
 	ProjectSection(SolutionItems) = preProject

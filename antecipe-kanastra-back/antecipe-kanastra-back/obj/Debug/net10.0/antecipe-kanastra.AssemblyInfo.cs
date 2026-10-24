@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("antecipe-kanastra")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0964bf1fb491b73e1eab625e9eb10323c73ea707")]
 [assembly: System.Reflection.AssemblyProductAttribute("antecipe-kanastra")]
 [assembly: System.Reflection.AssemblyTitleAttribute("antecipe-kanastra")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
