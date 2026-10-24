@@ -1,7 +1,14 @@
 ﻿services:
-  antecipe-kanastra:
-    image: antecipe-kanastra
+  antecipe-kanastra-back:
+    image: antecipe-kanastra-back
     build:
       context: .
-      dockerfile: antecipe-kanastra/Dockerfile
-
+      dockerfile: antecipe-kanastra-back/Dockerfile
+    ports:
+      - "8080:8080"
+    environment:
+      ASPNETCORE_ENVIRONMENT: Production
+      # Permite ao gestor editar o validators.json montado sem reiniciar o container.
+      DOTNET_USE_POLLING_FILE_WATCHER: "true"
+    volumes:
+      - ./antecipe-kanastra-back/Config:/app/Config:ro
